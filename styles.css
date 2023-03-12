@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: hsl(216, 12%, 8%);
+    color: hsl(217, 12%, 63%);
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    font-family: 'Overpass', sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    text-align: left;
+}
+p{
+    margin: 10px 5px;
+}
+.s-text{
+    font-size: 15px;
+    line-height: 22px;
+    margin-left:10px;
+}
+.b-text{
+    font-size: 22px;
+    font-weight: 700;
+    color: white;
+    margin-right: 150px;
+    margin-left:5px;
+}
+.card{
+    padding: 10px;
+    margin-top: 20vh;
+    background-color: hsl(213, 19%, 18%);
+    width: 320px;  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    perspective: 1000px;
+}
+
+#star{
+    background-color: hsl(240, 3%, 11%);
+    padding: 8px;
+    border-radius: 20px;
+}
+#star-span{
+    margin-right: 280px;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+li{
+    width: 20px;
+    text-align: center;
+    list-style: none;
+    margin:15px 13px;
+    background-color: hsl(216, 8%, 25%);
+    padding: 8px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+li:hover{
+    background-color: hsl(217, 12%, 63%);
+    color:white;
+}
+#submit-btn{
+    width: 90%;
+    padding: 15px;
+    background-color: hsl(25, 97%, 53%);
+    color:white;
+    border: 0;
+    border-radius: 25px;
+    margin:15px 25px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+#thankyou-page{
+    display: none;
+}
+#rating-page{
+    display: flex;
+}
+#thankyou-page img{
+    margin:15px 10px;
+}
+#thankyou-page p{
+    margin:12px 10px;
+    text-align: center;
+}
+#thankyou-page #selected-score{
+    color:hsl(25, 97%, 53%);
+    background-color: hsl(216, 8%, 25%); 
+    border-radius: 30px;
+    padding: 5px 10px;
+    font-size: smaller;
+
+}
+.active{
+    color:white;
+    background-color: hsl(25, 97%, 53%); 
+}
+.active:hover{
+    color:white;
+    background-color: hsl(25, 97%, 53%); 
+}
+.inactive{
+    background-color: hsl(216, 8%, 25%);   
+}
+
+/* .attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); } */
