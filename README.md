@@ -39,7 +39,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Click here](https://itsme-shivamkumar.github.io/interactive-rating-component/)
+- Live Site URL: [Click here](https://vaishalidewangan786.github.io/Interactive-Rating-Component/)
 
 
 ### Built with
